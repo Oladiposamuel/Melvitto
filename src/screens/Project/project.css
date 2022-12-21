@@ -1,0 +1,413 @@
+.project {
+    background-color: #000000;
+    height: 100vh;
+    width: 100%;
+    overflow: visible;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    transition: all .2s ease-out;
+    /* border: 1px solid red; */
+    cursor: grab;
+}
+
+.home-link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+}
+
+.tracklist-box {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    top: 20%;
+    right: 20%;
+    /* border: 1px solid red; */
+}
+
+.tracklist-box-1 {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    top: 20%;
+    right: 10%;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1290px) {
+    .tracklist-box-1 {
+        position: absolute;
+        width: max-content;
+        height: max-content;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        top: 20%;
+        right: 5%;
+        /* border: 1px solid red; */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .tracklist-box-1 {
+        position: absolute;
+        width: max-content;
+        height: max-content;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        top: 5%;
+        right: 5%;
+        /* border: 1px solid red; */
+    }
+
+    .tracklist-box {
+        position: absolute;
+        width: max-content;
+        height: max-content;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        top: 5%;
+        right: 20%;
+        /* border: 1px solid red; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tracklist-box-1 {
+        position: absolute;
+        width: max-content;
+        height: max-content;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        top: 60%;
+        right: 5%;
+        /* border: 1px solid red; */
+    }
+
+    .tracklist-box {
+        position: absolute;
+        width: max-content;
+        height: max-content;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        top: 60%;
+        right: 20%;
+        /* border: 1px solid red; */
+    }
+}
+
+.tracklist {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    .tracklist {
+        color: #fff;
+        font-size: .8rem;
+        text-transform: capitalize;
+        list-style: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tracklist {
+        color: #fff;
+        font-size: .5rem;
+        text-transform: capitalize;
+        list-style: none;
+    }
+}
+
+.project-title-box {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 5%;
+    left: 5%;
+
+}
+
+.project-title {
+    font-size: 6rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0;
+}
+
+@media screen and (max-width: 1290px) {
+    .project-title {
+        font-size: 5rem;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .project-title {
+        font-size: 4rem;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .project-title {
+        font-size: 3rem;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-title {
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-title {
+        font-size: 2rem;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .project-title {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0 0;
+    }
+}
+
+.text {
+    font-weight: 500;
+    font-size: larger;
+    color: #fff;
+}
+
+.project-content-box {
+    width: 100%;
+    height: 90%;
+    overflow: visible;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.image {
+    width: 35%;
+    margin-left: 25vw;
+    margin-right: 5vw;
+}
+
+.image:first-child {
+    transform: translateX(0%);
+}
+
+.image:last-child {
+    margin-right: 30vw;
+}
+
+.arrow-right {
+    bottom: 10%;
+    right: 20%;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 4rem;
+    /* border: 1px solid red; */
+    z-index: 20;
+}
+
+.arrow-left {
+    bottom: 10%;
+    right: 25%;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 4rem;
+    /* border: 1px solid red; */
+    z-index: 20;
+}
+
+@media screen and (max-width: 768px) {
+    .arrow-right {
+        top: 0%;
+        right: 15%;
+        bottom: 80%;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: 4rem;
+        /* border: 1px solid red; */
+        z-index: 20;
+    }
+    
+    .arrow-left {
+        top: 0%;
+        right: 25%;
+        bottom: 80%;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: 4rem;
+        /* border: 1px solid red; */
+        z-index: 20;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .arrow-right {
+        top: 0%;
+        right: 15%;
+        bottom: 80%;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: max-content;
+        display: flex;
+        padding: 0 0;
+        margin: 0 0;
+        /* border: 1px solid red; */
+        z-index: 20;
+    }
+    
+    .arrow-left {
+        top: 0%;
+        right: 25%;
+        bottom: 80%;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: max-content;
+        /* border: 1px solid red; */
+        z-index: 20;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .arrow-right {
+        top: 0%;
+        right: 12%;
+        bottom: 80%;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: max-content;
+        display: flex;
+        padding: 0 0;
+        margin: 0 0;
+        /* border: 1px solid red; */
+        z-index: 20;
+    }
+    
+    .arrow-left {
+        top: 0%;
+        right: 28%;
+        bottom: 80%;
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: max-content;
+        /* border: 1px solid red; */
+        z-index: 20;
+    }
+}
+
+.arrow-text {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.hold-and-drag {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    color: #777;
+    z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .hold-and-drag {
+        position: absolute;
+        bottom: 20%;
+        right: 20%;
+        color: #777;
+        z-index: 0;
+        display: none;
+    }
+}
+
